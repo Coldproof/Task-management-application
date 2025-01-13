@@ -1,0 +1,12 @@
+### Create task
+POST http://localhost:18080/tasks
+Content-Type: application/json
+
+{
+  "name": "Sample Task",
+  "description": "This is a sample task"
+}
+
+
+### Get task
+GET http://localhost:18080/tasks
