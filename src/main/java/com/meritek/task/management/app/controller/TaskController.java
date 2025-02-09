@@ -2,6 +2,7 @@ package com.meritek.task.management.app.controller;
 
 import com.meritek.task.management.app.model.Task;
 import com.meritek.task.management.app.service.TaskService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

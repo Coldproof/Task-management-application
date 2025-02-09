@@ -7,6 +7,15 @@ Content-Type: application/json
   "description": "This is a sample task"
 }
 
+### Create task sap
+POST http://localhost:18080/tasks
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<name>new task</name>
+<description>new task</description>
+
+
 
 ### Get task
 GET http://localhost:18080/tasks
