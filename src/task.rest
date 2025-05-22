@@ -3,6 +3,7 @@ POST http://localhost:18080/tasks
 Content-Type: application/json
 
 {
+  "status": "DONE",
   "name": "Sample Task",
   "description": "This is a sample task"
 }
