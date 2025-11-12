@@ -42,6 +42,7 @@ public class TaskService {
         existingTask.setDescription(task.getDescription());
         existingTask.setStatus(task.getStatus());
         existingTask.setAuthors(task.getAuthors());
+        existingTask.setCategory(task.getCategory());
 
         return taskRepository.save(existingTask);
     }
